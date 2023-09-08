@@ -31,7 +31,7 @@
 }
 
 .emoji {
-  width: 100px;
+  width: 70px;
 }
 
 .date {
@@ -108,7 +108,7 @@
   cursor: default;
   text-decoration: none;
 }
-.current-temperature .active:hover {
+.current-temperature .active :hover {
   text-decoration: none;
   cursor: default;
 }
