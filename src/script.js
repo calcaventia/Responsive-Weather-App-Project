@@ -82,8 +82,9 @@ function showTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   emojiElement.setAttribute(
     "src",
-    `http://openweather.org/img/wn/${response.data.weather[0].icon}@2x.png`
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
+
   emojiElement.setAttribute("alt", response.data.weather[0].description);
 }
 
