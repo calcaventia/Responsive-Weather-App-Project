@@ -97,8 +97,7 @@
   font-weight: 100;
 }
 
-.current-temperature {
-  color: #fff;
+.unit {
   text-decoration: none;
   cursor: default;
 }
